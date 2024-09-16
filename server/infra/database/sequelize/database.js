@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize";
 
-const sequelize = new Sequelize("user_db", "postgres", "dev", {
-  host: "node-react-login-db",
+const sequelize = new Sequelize("user_login", "postgres", "dev", {
+  host: "192.168.128.2",
   dialect: "postgres",
   pool: {
     max: 5,
